@@ -1,11 +1,14 @@
-#Header 1#
+#Header 1
+
 Markdown.md formatting
 
 ##Header 2
-paragraph, no extra line break
+
+paragraph
 
 ###Header 3
-paragraph, no extra line break
+
+paragraph
 
 *italics*
  abc 
@@ -30,9 +33,11 @@ horizontal rule, not typically rendered
 >> Nested Quote Text - two GT symbols
 
 `Code Text - back tick before 
-and after 
-
-text, ignoring line breaks`
+   and after 
+   text, not ignoring 
+     line breaks
+   end
+end`
 
 ##Lists
 
