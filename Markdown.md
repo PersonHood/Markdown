@@ -63,8 +63,8 @@ horizontal rule, not always rendered 3 asterisks
 
 paragraph
 
-> Quoted Text greater than sign
->> 2^nd^ Quoted Text two GT sign
+> Quoted Text prepend 1 greater than sign
+>> 2^nd^ Quoted Text prepend 2 greater than  signs
 
 ## Code 
 
@@ -145,12 +145,12 @@ The following should work in GitHub:
 
 | left---| center---| right-- |
 | ------ |:--------:| -------:|
-| row 1  | label    |      $1 |
-| row 2  | label    |      $2 |
-| row 3  | label    |      $3 |
+| row 1  | label    |   $1.00 |
+| row 2  | label    |   $2.00 |
+| row 3  | label    |   $3.00 |
 
-Vertical bars define columns, 
-no extra line breaks
+Vertical bars define columns with
+no extra line breaks;
 dashes and colons (before and after) 
 vertical bars specify alignment.
 
@@ -164,20 +164,23 @@ vertical bars specify alignment.
 | [table](#table)
 | [esc](#escaping) 
 
+Special & reserved characters
+
 prepend a back slash
 
-- \*   Asterisk
-- \\   Backslash
-- \`   Backtick
-- \{}  Curly braces
-- \.   Dot
-- \!   Exclamation mark
-- \#   Hash symbol
-- \-   Hyphen symbol
--\()  Parentheses
-- \+   Plus symbol
-- \[]  Square brackets
-- \_   Underscore
+- \* Asterisk
+- \\ Backslash
+- \` Backtick
+- \{ \}  Curly braces
+- \. Dot
+- \! Exclamation mark
+- \# Hash symbol
+- \- Hyphen symbol
+- \( \)  Parentheses
+- \+ Plus symbol
+- \[ Square brackets
+- \] Square brackets
+- \_ Underscore
 
 [top](#header-1) 
 | [text](#text) 
