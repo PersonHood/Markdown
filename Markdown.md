@@ -6,7 +6,7 @@
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
 
@@ -30,7 +30,7 @@
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
 
@@ -72,7 +72,7 @@ paragraph
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
 
@@ -93,7 +93,7 @@ tick
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
 
@@ -109,15 +109,23 @@ tick
    2. Numbered Item 2.2 
    3. three spaces prepended
 
-## External Link
+## Link
+
+Within this page:
+
+\[text\]\(\#lowercase-header-text)
+
+Replace dashes for spaces in header text.
 
 [top](#header-1) 
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
+
+## External Link
 
 [Reddit Link](http://reddit.com) – bracket abc bracket paren http... paren
 
@@ -139,7 +147,7 @@ The following should work in GitHub:
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
 
@@ -160,7 +168,7 @@ vertical bars specify alignment.
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
 
@@ -186,6 +194,6 @@ prepend a back slash
 | [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#external-link) 
+| [link](#link) 
 | [table](#table)
 | [esc](#escaping) 
