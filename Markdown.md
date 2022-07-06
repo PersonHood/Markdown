@@ -10,14 +10,22 @@
 
   paragraph
 
+asterisk 
 *italics*
+asterisk 
  abc 
+2 asterisks 
 **bold**
+2 asterisks
  abc 
+3 asterisks
 ***bold italics***
+3 asterisks
  abc 
+2 tildes 
 ~~strikethrough~~
- abc, 8 line breaks
+2 tildes 
+ abc, 16 line breaks
 
 Single\s\s\s\s    
 Line Break with four trailing spaces above
@@ -48,8 +56,8 @@ end`
 
 1. Numbered Item 1
 2. Numbered Item 2
- 1. Numbered Item 2.1, two spaces prepended
- 2. Numbered Item 2.2 
+    1. Numbered Item 2.1, four spaces prepended
+    2. Numbered Item 2.2 
 
 ##Explicit link definition
 
