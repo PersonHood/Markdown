@@ -56,8 +56,9 @@ end`
 
 1. Numbered Item 1
 2. Numbered Item 2
-    1. Numbered Item 2.1, four spaces prepended
+    1. Numbered Item 2.1
     2. Numbered Item 2.2 
+    3. four spaces prepended
 
 ##Explicit link definition
 
@@ -65,9 +66,9 @@ end`
 
 ##Implicit link definition
 
-u/reddit
+u/reddit - comment 
 
-r/AskReddit
+r/AskReddit - comment 
 
 ##Tables
 
