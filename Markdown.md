@@ -1,14 +1,14 @@
 #Header 1
 
-Markdown.md formatting
+  Markdown.md formatting
 
 ##Header 2
 
-paragraph
+  paragraph
 
 ###Header 3
 
-paragraph
+  paragraph
 
 *italics*
  abc 
@@ -34,7 +34,7 @@ horizontal rule, not typically rendered
 
 `Code Text - back tick before 
    and after 
-   text, not ignoring 
+   text, ignoring 
      line breaks
    end
 end`
