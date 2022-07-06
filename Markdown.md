@@ -125,13 +125,13 @@ tick
 
 The following should work in Reddit: 
 
-u/reddit - comment 
+[link](u/reddit) - u/reddit
 
-(r/AskReddit) - comment 
+[link](r/AskReddit) - r/AskReddit 
 
 The following should work in GitHub:
 
-/README.MD
+[link](./README.md) - ./README.md
 
 ## Table
 
