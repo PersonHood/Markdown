@@ -2,11 +2,13 @@
 
   prepend 1 hash + 1 space
 
-| [top](#header-1) 
+[top](#header-1) 
+| [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#explicit-link) 
-| [table](#table) |
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
 
   Markdown.md formatting
 
@@ -21,6 +23,16 @@
   prepend 3 hash + 1 space
 
   paragraph
+
+# Text
+
+[top](#header-1) 
+| [text](#text) 
+| [code](#code) 
+| [list](#list) 
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
 
 asterisk 
 *italics*
@@ -46,19 +58,23 @@ Paragraph -enter key- -enter key-
 
 Line Break
 
-horizontal rule, not typically rendered 
+horizontal rule, not always rendered 3 asterisks 
 ***
 
-> Quoted Text - greater than symbol
->> Nested Quote Text - two GT symbols
+paragraph
+
+> Quoted Text greater than sign
+>> 2^nd^ Quoted Text two GT sign
 
 ## Code 
 
-| [top](#header-1) 
+[top](#header-1) 
+| [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#explicit-link) 
-| [table](#table) |
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
 
 ```
 Code Text - triple back tick 
@@ -69,14 +85,18 @@ Code Text - triple back tick
    end
 end
 ```
+Paragraph back tick `call sqrt()` back 
+tick
 
 ## List
-
-| [top](#header-1) 
+[top](#header-1) 
+| [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#explicit-link) 
-| [table](#table) |
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
+
 
 * Item 1
 * Item 2
@@ -89,23 +109,25 @@ end
    2. Numbered Item 2.2 
    3. three spaces prepended
 
-## Explicit link
+## External Link
 
-| [top](#header-1) 
+[top](#header-1) 
+| [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#explicit-link) 
-| [table](#table) |
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
 
 [Reddit Link](http://reddit.com) – bracket abc bracket paren http... paren
 
-## Implicit link
+## Relative Link
 
 The following should work in Reddit: 
 
 u/reddit - comment 
 
-r/AskReddit - comment 
+(r/AskReddit) - comment 
 
 The following should work in GitHub:
 
@@ -113,11 +135,13 @@ The following should work in GitHub:
 
 ## Table
 
-| [top](#header-1) 
+[top](#header-1) 
+| [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#explicit-link) 
-| [table](#table) |
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
 
 | left---| center---| right-- |
 | ------ |:--------:| -------:|
@@ -130,9 +154,35 @@ no extra line breaks
 dashes and colons (before and after) 
 vertical bars specify alignment.
 
-| [top](#header-1) 
+# Escaping
+
+[top](#header-1) 
+| [text](#text) 
 | [code](#code) 
 | [list](#list) 
-| [link](#explicit-link) 
-| [table](#table) |
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
 
+prepend a back slash
+
+- \*   Asterisk
+- \\   Backslash
+- \`   Backtick
+- \{}  Curly braces
+- \.   Dot
+- \!   Exclamation mark
+- \#   Hash symbol
+- \-   Hyphen symbol
+-\()  Parentheses
+- \+   Plus symbol
+- \[]  Square brackets
+- \_   Underscore
+
+[top](#header-1) 
+| [text](#text) 
+| [code](#code) 
+| [list](#list) 
+| [link](#external-link) 
+| [table](#table)
+| [esc](#escaping) 
