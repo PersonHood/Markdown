@@ -1,4 +1,4 @@
-#Header 1
+#Header 1#
 Markdown.md formatting
 
 ##Header 2
@@ -16,9 +16,8 @@ paragraph, no extra line break
 ~~strikethrough~~
  abc, 8 line breaks
 
-Single\s\s\s\s
-Line Break with four 
-trailing spaces above
+Single\s\s\s\s    
+Line Break with four trailing spaces above
 
 Paragraph -enter key- -enter key-
 
@@ -44,8 +43,8 @@ text, ignoring line breaks`
 
 1. Numbered Item 1
 2. Numbered Item 2
-  1. Numbered Item 2.1, two spaces prepended
-  2. Numbered Item 2.2 
+ 1. Numbered Item 2.1, two spaces prepended
+ 2. Numbered Item 2.2 
 
 ##Explicit link definition
 
