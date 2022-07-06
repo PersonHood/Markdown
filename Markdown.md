@@ -39,25 +39,27 @@ text, ignoring line breaks`
 
 * Item 1
 * Item 2
-    • Item 1 
-    • Item 2 
+  + Item 1, two spaces prepended
+  + Item 2 
 
 1. Numbered Item 1
 2. Numbered Item 2
-    1. Numbered Item 2.1 
-    2. Numbered Item 2.2 
+  1. Numbered Item 2.1, two spaces prepended
+  2. Numbered Item 2.2 
 
 ##Explicit link definition
 
 [Reddit Link](http://reddit.com) – bracket abc bracket paren http... paren
 
-u/nameofuser – u/reddit
+##Implicit link definition
 
-r/nameofsubreddit – r/AskReddit
+u/reddit
+
+r/AskReddit
 
 ##Tables
 
-| Tables        | Are           | Cool  |
+| Left          | center        | right |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
