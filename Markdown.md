@@ -66,9 +66,9 @@ end`
 
 ##Implicit link definition
 
- u/reddit - comment 
+  u/reddit - comment 
 
- r/AskReddit - comment 
+  r/AskReddit - comment 
 
 ##Tables
 
