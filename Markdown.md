@@ -2,13 +2,13 @@
 
   prepend 1 hash + 1 space
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
 
   Markdown.md formatting
 
@@ -26,29 +26,29 @@
 
 # Text
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
 
-asterisk 
+asterisk
 *italics*
-asterisk 
- abc 
-2 asterisks 
+asterisk
+ abc
+2 asterisks
 **bold**
 2 asterisks
- abc 
+ abc
 3 asterisks
 ***bold italics***
 3 asterisks
- abc 
-2 tildes 
+ abc
+2 tildes
 ~~strikethrough~~
-2 tildes 
+2 tildes
  abc, 16 line breaks
 
 Single\s\s\s\s    
@@ -58,58 +58,66 @@ Paragraph -enter key- -enter key-
 
 Line Break
 
-horizontal rule, not always rendered 3 asterisks 
+horizontal rule, not always rendered 3 asterisks
 ***
 
 paragraph
 
 > Quoted Text prepend 1 greater than sign
->> 2^nd^ Quoted Text prepend 2 greater than  signs
+>> 2^nd^ Quoted Text prepend 2 greater than  signs
 
-## Code 
+## Code
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
 
 ```
-Code Text - triple back tick 
-     at line before 
-   and line after 
-   text, not ignoring 
+Code Text - triple back tick
+     at line before
+   and line after
+   text, not ignoring
      line breaks nor spacing
    end
 end
 ```
-Paragraph back tick `call sqrt()` back 
+Paragraph back tick `call sqrt()` back
 tick
 
 ## List
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
 
 
 * Item 1
 * Item 2
    + Item 1, three spaces prepended
-   + Item 2 
+   + Item 2
 
 1. Numbered Item 1
 2. Numbered Item 2
    1. Numbered Item 2.1
-   2. Numbered Item 2.2 
+   2. Numbered Item 2.2
    3. three spaces prepended
 
 ## Link
+
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
+| [table](#table)
+| [esc](#escaping)
 
 Within this page:
 
@@ -117,13 +125,6 @@ Within this page:
 
 Replace dashes for spaces in header text.
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
-| [table](#table)
-| [esc](#escaping) 
 
 ## External Link
 
@@ -131,11 +132,11 @@ Replace dashes for spaces in header text.
 
 ## Relative Link
 
-The following should work in Reddit: 
+The following should work in Reddit:
 
 [link](u/reddit) - u/reddit
 
-[link](r/AskReddit) - r/AskReddit 
+[link](r/AskReddit) - r/AskReddit
 
 The following should work in GitHub:
 
@@ -143,13 +144,13 @@ The following should work in GitHub:
 
 ## Table
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
 
 | left---| center---| right-- |
 | ------ |:--------:| -------:|
@@ -159,18 +160,18 @@ The following should work in GitHub:
 
 Vertical bars define columns with
 no extra line breaks;
-dashes and colons (before and after) 
+dashes and colons (before and after)
 vertical bars specify alignment.
 
 # Escaping
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
 
 Special & reserved characters
 
@@ -190,10 +191,11 @@ prepend a back slash
 - \] Square brackets
 - \_ Underscore
 
-[top](#header-1) 
-| [text](#text) 
-| [code](#code) 
-| [list](#list) 
-| [link](#link) 
+[top](#header-1)
+| [text](#text)
+| [code](#code)
+| [list](#list)
+| [link](#link)
 | [table](#table)
-| [esc](#escaping) 
+| [esc](#escaping)
+
