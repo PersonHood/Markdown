@@ -2,15 +2,12 @@
 
   prepend 1 hash + 1 space
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
   Markdown.md formatting
+
+>Note: End of Line (EOL) character(s) are a factor across operating environments. 
+>  It is safest to remove "carriage returns"- `\r` and keep "line feeds" - `\n`. MS-DOS vs Linux.
 
 ## Header 2
 
@@ -26,13 +23,7 @@
 
 # Text
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
 asterisk
 *italics*
@@ -58,7 +49,7 @@ Paragraph -enter key- -enter key-
 
 Line Break
 
-horizontal rule, not always rendered 3 asterisks
+horizontal rule, not always rendered, 3 asterisks
 ***
 
 paragraph
@@ -68,13 +59,7 @@ paragraph
 
 ## Code
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
 ```
 Code Text - triple back tick
@@ -89,13 +74,7 @@ Paragraph back tick `call sqrt()` back
 tick
 
 ## List
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
 
 * Item 1
@@ -111,13 +90,7 @@ tick
 
 ## Link
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
 Within this page:
 
@@ -144,14 +117,8 @@ The following should work in GitHub:
 
 ## Table
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
-
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
+ 
 | left---| center---| right-- |
 | ------ |:--------:| -------:|
 | row 1  | label    |   $1.00 |
@@ -165,13 +132,7 @@ vertical bars specify alignment.
 
 # Escaping
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
 Special & reserved characters
 
@@ -191,11 +152,5 @@ prepend a back slash
 - \] Square brackets
 - \_ Underscore
 
-[top](#header-1)
-| [text](#text)
-| [code](#code)
-| [list](#list)
-| [link](#link)
-| [table](#table)
-| [esc](#escaping)
+[top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping)
 
