@@ -1,2 +1,3 @@
-Link to Paste in file
+Link to Pastebin.com
+
 
