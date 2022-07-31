@@ -1,0 +1,17 @@
+a:link { color: grey; } /* all headers are md links */
+h1 { color: red; }                       /* ignored   */
+h1 { font-size: 3.75rem; }
+h1 { font-family: ui-monospace; } 
+h1 { font-stretch: 250%; }            /* ignored    */
+h1 { font-style: bold; }                /* ignored    */
+h1 { line-height: 3em; }
+h1 { font-weight: 100; }              /* ignored    */
+h1 { font-variant: small-caps; }
+h1 { border-left: 3px solid blue; }
+h1 { letter-spacing: 5px; }
+h1 { margin: 10px 10px 10px; }
+h1 { background-color: black; }
+h1 { rotate: x 5deg; }                 /* ignored.   */
+h1 { text-align: end; }
+h1 { text-decoration: wavy underline; }
+h1 { writing-mode: vertical-rl; text-orientation: mixed; }
