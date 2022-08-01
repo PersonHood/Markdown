@@ -1,4 +1,13 @@
+[  this is a comment. ]::
+
+<!--#include virtual="test.html" -->
+
+<!--#include file="test.html" -->
+
+<link href="styles.css" rel="stylesheet"></link>
+
 [  this is a comment. all on one line. it takes up vertical space. it is not displayed ]::
+
 <link href="styles.css" rel="stylesheet"></link>
 
 # Header 1
@@ -6,7 +15,6 @@
 prepend 1 hash \# + 1 space
 
 `<link href="styles.css" rel="stylesheet"></link>`
->`ignored on Github`
 
 *Note:* all headers are markdown links / anchors
 
@@ -119,7 +127,7 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
 
 1 blank line before table.
 
- | left - - - | center - - | right - - - | 
+ | left - - - | center - - - | right - - - - | 
  | ------ |:--------:| -------:| 
  | row 1  | label    |   $1.00 | 
  | row 2  | label    |   $2.00 | 
