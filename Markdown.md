@@ -10,6 +10,19 @@
 
 <link href="styles.css" rel="stylesheet"></link>
 
+<!---
+<script>
+
+async function addFooter() 
+{
+    const resp = await fetch("test.html");
+    const html = await resp.text();
+    document.body.insertAdjacentHTML("beforeend", html);
+}
+
+</script>
+--->
+
 # Header 1
 
 prepend 1 hash \# + 1 space
