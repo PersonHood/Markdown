@@ -3,7 +3,12 @@
 Self-documenting file of 
 Markdown formatting.
 
-Download the latest `Release` zip file.
+Download the latest `Release`.
 
-`./docs` directory used by Jekyll
+>[zip](https://github.com/PersonHood/Markdown/archive/refs/tags/v3.0.zip)
+
+**Note:**
+
+The `./docs` directory is used by Jekyll, GitHub's `Markdown` processor.
+
 
