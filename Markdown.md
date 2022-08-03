@@ -1,27 +1,21 @@
-[  this is a comment. ]::
+---
+layout: page
+title: Markdown cheat-sheet
+---
 
+[ this is a comment. ]::
+
+[ HTML virtual include ]::
 <!--#include virtual="test.html" -->
 
+[ HTML file include ]::
 <!--#include file="test.html" -->
 
+[ Jekyll local file include ]::
+{% include_relative ./test.html %}
+
+[ HTML CSS file include ]::
 <link href="styles.css" rel="stylesheet"></link>
-
-[  this is a comment. all on one line. it takes up vertical space. it is not displayed ]::
-
-<link href="styles.css" rel="stylesheet"></link>
-
-<!---
-<script>
-
-async function addFooter() 
-{
-    const resp = await fetch("test.html");
-    const html = await resp.text();
-    document.body.insertAdjacentHTML("beforeend", html);
-}
-
-</script>
---->
 
 # Header 1
 
