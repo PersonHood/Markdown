@@ -1,21 +1,12 @@
----
-layout: page
-title: Markdown cheat-sheet
----
+[  this is a comment. ]::
 
-[ this is a comment. ]::
-
-[ HTML virtual include ]::
 <!--#include virtual="test.html" -->
 
-[ HTML file include ]::
 <!--#include file="test.html" -->
 
-[ Jekyll local file include ]::
-{% include_relative ./test.html %}
-
-[ HTML CSS file include ]::
 <link href="styles.css" rel="stylesheet"></link>
+
+[  this is a comment. all on one line. it takes up vertical space. it is not displayed ]::
 
 # Header 1
 
@@ -76,8 +67,11 @@ signs \>\>. superscript caret ^nd^ caret \^
 
 menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
+Note: Markdown text automatically wraps, fitting in the available horizontal space, except when enclosed in triple back-ticks \`\`\`. 
+
+``` LongLinesOfUnbrokenTextWillRequireScrollingToSeeTheRightMostSections.```
 ```
-Code Text - triple back tick \`
+Code Text - triple back tick ```
      at line before
    and line after
    text, not ignoring
