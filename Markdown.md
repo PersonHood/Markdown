@@ -171,5 +171,10 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
 
 ![image](https://github.com/PersonHood/Markdown/blob/main/docs/assets/images/img-stick-figures-474x498.jpg?raw=true)
 
+***
 
+![image](https://github.com/neutraltone/awesome-stock-resources/blob/master/img/splash.jpg?raw=true)
+
+
+***
 
