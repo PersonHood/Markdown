@@ -169,4 +169,7 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
 
 `![ImageLabel](./img/filename.jpg)`
 
-![Image](./img/img-stick-figures-474x498.jpg)
+![image](https://github.com/PersonHood/Markdown/blob/main/docs/assets/images/img-stick-figures-474x498.jpg?raw=true)
+
+
+
