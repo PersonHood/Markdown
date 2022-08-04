@@ -69,7 +69,7 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
 
 Note: Markdown text automatically wraps, fitting in the available horizontal space, except when enclosed in triple back-ticks \`\`\`. 
 
-``` LongLinesOfUnbrokenTextWillRequireScrollingToSeeTheRightMostSections.```
+``` LongLinesOfUnbrokenTextMayRequireScrollingToSeeTheRightMostSections.```
 ```
 Code Text - triple back tick ```
      at line before
