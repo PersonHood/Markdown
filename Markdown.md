@@ -4,9 +4,9 @@
 
 <link href="styles.css" rel="stylesheet"></link>
 
-> [Appendices](./Appendices-Top/Markdown-00-Appendices.md) | [WTF](./Appendices-Top/Markdown-01-WTF.md) | [Motivate](./Appendices-Top/Markdown-02-Motivate.md) |
-> [Overview](./Appendices-Top/Markdown-03-Overview.md) | [Definitions](./Appendices-Top/Markdown-04-Definitions.md) | [Memes](./Appendices-Top/Markdown-05-Memes.md) 
-> [Admin](./Appendices-Top/Markdown-06-Admin.md) | [TT4N](./Appendices-Top/Markdown-07-TT4N.md) | [Bibliography](./Appendices-Top/Markdown-99-Bibliography.md) | [Hosts](./Appendices-Top/Markdown-08-Hosts.md)
+> [Markdown](./Markdown.md) | [Appendices](./Appendices-Top/Markdown-00-Appendices.md) | [WTF](./Appendices-Top/Markdown-01-WTF.md) | [Motivate](./Appendices-Top/Markdown-02-Motivate.md) 
+> [Overview](./Appendices-Top/Markdown-03-Overview.md) | [Definitions](./Appendices-Top/Markdown-04-Definitions.md) |  [Admin](./Appendices-Top/Markdown-05-Admin.md) 
+> [TT4N](./Appendices-Top/Markdown-06-TT4N.md) | [Bibliography](./Appendices-Top/Markdown-99-Bibliography.md) | [Hosts](./Appendices-Top/Markdown-07-Hosts.md)
 
 # Header 1
 
@@ -139,7 +139,7 @@ The following should work in Reddit:
 
 The following should work in GitHub:
 
-> [Local link](./Appendices-Top/README.md) - ./README.md
+> [Local link](./Appendices-Top/Appendices-Top/README.md) - ./Appendices-Top/README.md
 
 ## Table
 
@@ -194,7 +194,7 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
 
 ***
 
-Local `./images` directory
+Local `./Appendices-Top/images` directory
 
 > `![ImageLabel](./images/filename.jpg)`
 
