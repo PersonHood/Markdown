@@ -36,11 +36,11 @@ Dozens of lists and resources may be included in separate documents, added and u
 
 - Markdown-06-TT4N.md
 
-## [Bibliography](./Markdown-99-Bibliography.md)
-
-- Markdown-99-Bibliography.md
-
 ## [Hosts](./Markdown-07-Hosts.md)
 
 - Markdown-07-Hosts.md
+
+## [Bibliography](./Markdown-99-Bibliography.md)
+
+- Markdown-99-Bibliography.md
 
