@@ -2,7 +2,7 @@
 
 `[  this is a hidden-ish comment. ]::`
 
-<link href="styles.css" rel="stylesheet"></link>
+<link href="styles.css" rel="stylesheet" />
 
 > [Markdown](./Markdown.md) | [Appendices](./Appendices-Top/Markdown-00-Appendices.md) | [WTF](./Appendices-Top/Markdown-01-WTF.md) | [Motivate](./Appendices-Top/Markdown-02-Motivate.md) 
 > [Overview](./Appendices-Top/Markdown-03-Overview.md) | [Definitions](./Appendices-Top/Markdown-04-Definitions.md) |  [Admin](./Appendices-Top/Markdown-05-Admin.md) 
@@ -11,11 +11,12 @@
 
 # Header 1
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images)
+> menu: [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images)
 
 ***
 
-> prepend 1 hash \# + 1 space
+> Header #1 prepend 1 hash \# + 1 space
 
 Set some properties:
 
@@ -39,7 +40,8 @@ Change your document's end of line character(s) (EOL) from DOS (`\r\n`) to Linux
 
 ## Text
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -77,7 +79,8 @@ signs \>\>. superscript caret ^nd^ caret \^
 
 ## Code
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -96,7 +99,8 @@ end
 Paragraph backtick `call sqrt()` backtick
 
 ## List
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -113,7 +117,8 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
 
 ## Link
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -144,7 +149,8 @@ The following should work in GitHub:
 
 ## Table
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -153,21 +159,33 @@ menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link
  | left - - - | center - - - | right - - - - |
  | ------ |:--------:| -------:|
  | row 1  | label    |   $1.00 |
- | row 2  | label    |   $2.00 |
- | row 3  | label    |   $3.00 |
+ | row 2  | lab<br>el    |   $2.00 |
+ | row 3  | label    |   $3.00 | x |
+ | x |
+ | &nbsp;&nbsp;x | x |
 
 > `add one blank line after the table`
 
-- Vertical bars set columns, no extra line breaks;
-- dashes and colons before and after vertical bars in the 1st row specify alignment. `|:---:|` centers contents
+- Vertical bars set columns
+  - no extra line breaks permitted
+- dashes and colons  
+  - before/after vertical bars 
+  - in the 1st row specify alignment L C R
+  - `|:---:|` centers contents
 - tables fail to display when:
-   - no blank lines before and after the table
+   - no blank lines before/after the table
    - EOL characters are DOS `\r\n` vs Linux `\n`
-   - unequal number of `|` vertical bars
+- note: 
+  - row 2 col 2 HTML \<br>
+  - row 3 col 4 extra `|` at end of row
+  - row 4 col 1 one col 2 `|`, no col 2
+  - row 5 col 1 and 2, no col 3+
+  - row 5 col 1 2x \&nbsp\; 
 
 ## Escaping
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -191,7 +209,8 @@ Special & reserved characters
 
 ## Images
 
-menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) | [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
+> menu: | [top](#header-1) | [text](#text) | [code](#code) | [list](#list) |
+> [link](#link) | [table](#table) | [esc](#escaping) | [img](#images) |
 
 ***
 
@@ -199,4 +218,4 @@ Local `./Appendices-Top/images` directory
 
 > `![ImageLabel](./images/filename.jpg)`
 
-![Image](./images/img-stick-figures-474x498.jpg)
+![Image](./bin/jpg/img-stick-figures-474x498.jpg)
