@@ -5,7 +5,7 @@ Markdown formatting.
 
 Download the latest `Release`.
 
->[zip](https://github.com/PersonHood/Markdown/archive/refs/tags/v3.1.zip)
+>[zip](https://github.com/PersonHood/Markdown/archive/refs/tags/v3.2.zip)
 
 **Note:**
 
